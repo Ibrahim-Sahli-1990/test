@@ -1,0 +1,10 @@
+PUT  http://localhost:5000/api/user/addfreiend
+
+Content-Type: application/json
+
+{
+    "id":"611b72ec82fb7021bccb85c9"
+}
+
+###
+GET http://localhost:5000/api/user/allusers 

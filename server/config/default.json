@@ -1,0 +1,18 @@
+{
+    "DB_URI":{
+        "URI":"mongodb+srv://Ibrahim:ibrahim1234@cluster0.wekok.mongodb.net/project?retryWrites=true&w=majority"
+    },
+    "SERVER_CONFIG":{
+        "PORT":5000
+    },
+    "JWT_CONFIG":{
+        "SECRET":"MYAPP"
+    },
+    "CLOUDINARY_CONFIG":{
+        "CLOUD_NAME":"dhm6vvwlk",
+        "API_KEY":"637289844871918",
+        "API_SECRET":"GZVpR4tDNtN_wTKY1euYloOE1_g",
+        "PRESET":"Movie"
+    }
+
+}

@@ -1,0 +1,713 @@
+.Navbar
+{display: flex;
+  flex-wrap: wrap;
+  width:100%;
+  background-color: pink;
+  position:fixed;
+  z-index: 2;
+  top:0px;
+
+}
+.textandimage{
+  width :20%;
+  display:flex;
+  background-color: crimson;
+
+}
+
+.error
+{ color:white;
+  background-color: royalblue;
+  font-family: -apple-system, BlinkMacSystemFont,Roboto, 'Segoe UI',  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  font-size: 50px;
+  display :flex;
+  justify-content: center!important;
+  
+  }
+
+
+.logo {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  margin-left: 0px;
+}
+
+.Navbar .div1{
+  display: flex;
+  width :50%;
+  height: 60px;
+  background-color: chartreuse;
+}
+.div1 .h5
+{margin :10px;
+  width:40vh;
+text-decoration: none;
+color :black;}
+
+.Navbar .div2 {
+  height: 60px;
+
+}
+.searchinput
+{
+  width: 20% !important;
+  height: 60px !important;
+
+
+}
+.Navbar .div2 Button{
+  height: 60px !important;
+  margin:0px 20px !important;
+} 
+.Navbar .ReactStars{
+margin: 10px 20px;
+width:100%
+
+}
+.imagenav
+{
+ width:50px
+;height: 50px;
+border-radius: 50%;
+}
+.textnav{
+  margin: 15px;
+
+  
+
+}
+/**/
+.dropbtn {
+  background-color: beige;
+  color: 007BFF;
+
+ 
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  height: 66px;
+  background-color: cornflowerblue;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content div {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content div:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+
+}
+  .addmovie{
+   margin:0px 10px;
+  height:60px;
+    background-color: darkorange;
+  }
+  .dropbtn 
+  {height: 60px}
+
+  /*  disconnectbtn  */
+  .disconnectbtn{
+    position:absolute;
+    top:8vh;
+    right:-50px;
+    display: none;
+    z-index: 3;
+    width: 100px;
+    height: 10vh;
+  }
+  .disconnect
+  {position: relative;
+    padding: 20px;
+
+    
+
+  }
+/*   .disconnect:hover .disconnectbtn {
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 71, 104);
+    padding:20px;
+    z-index: 10;
+  
+  } */
+
+
+   
+
+
+
+
+ 
+/* .topnav .div4{
+  position:absolute;
+  top:0px;
+  right:0px
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #ddd;
+    border:solid 1px;
+    position:fixed;
+    top:0px;
+    right:Opx;
+    width:100%;
+    color:black;
+    background:yellow;
+  }
+  
+  .topnav div {
+    float: left;
+    padding:0px 10px;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+  display: flex;  
+    height:53px;
+    font-size:4vw;
+    background:#ddd;
+    border:solid black 0px 0px 1px 0px ;
+  
+  
+    justify-content: center;
+  align-items:center ;
+  
+  
+  }
+  
+  .topnav .div2:hover {
+    background-color: green;
+    color: white;
+  }
+  
+  .topnav div.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .topnav .icon {
+  border:0px;
+  margin :0px;
+  display:none
+  
+  }
+  
+  .topnav img{
+  width:50px;
+  height:50px}
+  .responsive{
+  background:black}
+  
+  @media screen and (max-width: 950px) {
+    .topnav .div1{display: none;}
+    .topnav{position:fixed}
+    .topnav .div4{
+    position:absolute;
+    top:0px;
+    right:0px}
+    
+    .topnav  {
+      position:absolute;
+      display: block;
+      width:10vw;
+      height:10vh;
+    background:red;
+    }
+    
+       .topnav .div2{
+      float: none;
+      display: flex;
+      text-align: left;
+        justify-content: start;
+  
+      
+      } 
+    
+    
+    
+    
+  }
+  
+  
+  
+  @media screen and (max-width: 950px) {
+    .topnav.responsive {position: fixed;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive .div1{
+      float: none;
+      display: flex;
+      text-align: left;
+        justify-content: start;
+  
+      
+      }
+      
+     .topnav.responsive div{
+     background:#ddd}  
+      
+      .topnav div2:hover {
+    background-color: green;
+    color: white;
+  }
+      .topnav input{
+      width :60%;
+      }
+      .topnav .div3{
+       padding-left: 0px;
+    }
+      
+    
+        .topnav .div4{
+         position:absolute;
+         right:50px;
+         top:0;
+           font-size:2vw }
+       .topnav .icon 
+        {
+         position:absolute;
+         right:0px;
+         top:0;
+        }
+        
+      
+      
+      
+  }
+  .topnav .div4 div{
+  font-size:2vw;
+  background:#ddd;
+  }
+  
+  
+  .topnav input{
+  height:50px}
+  .topnav{
+    background-color: #ddd;
+    border:solid 1px;
+    position:fixed;
+    top:0px;
+    right:Opx;
+    width:100%;
+    color:black;
+  }
+  
+  .topnav .div3{
+  padding:0px
+  }
+  .topnav .div4 div :hover {
+  
+  
+  
+  
+    background-color: green;
+    color: white;
+  }
+    .topnav .div4{
+    position:absolute;
+    top:0px;
+    right:0px} */
+
+
+    
+.topnav {
+  overflow: hidden;
+  background-color: beige;
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100%;
+   ;
+}
+
+
+
+.topnav .div1,.topnav .div2 ,.topnav .div11{
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  height:10vh ;
+  background-color: beige;
+  color:#007BFF
+}
+.themain{
+  position:fixed;
+  top:10vh;
+  height: 90vh;
+  background-color: #ddd;
+  width: 100%;
+}
+
+
+.topnav .div1:hover {
+  background-color: #007BFF;
+  color: white;
+}
+.topnav .div2:hover {
+  background-color: #007BFF;
+  color: white;
+}
+.topnav .div11:hover {
+  background-color: #007BFF;
+  color: white;
+}
+
+.topnav .div1:hover .l{
+  background-color: #007BFF;
+  color: white;
+}
+.topnav .div2:hover .l {
+  background-color: #007BFF;
+  color: white;
+}
+.topnav .div11:hover .l{
+  background-color: #007BFF;
+  color: white;
+}
+
+.topnav .div11:hover .l {
+  background-color: #007BFF;
+  color: white;
+}
+
+
+
+.topnav .icon  .FiMenu{
+  display: none;
+}
+
+
+
+.topnav .icon {
+  display: none;
+  ;
+  height: 10vh;
+  
+  position: absolute;
+  top:0px;
+  right:0px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color:beige;
+  color:#007BFF;
+  font-weight: bold;
+  z-index: 3;
+  background-color:beige;
+  }
+  /* .topnav .icon :hover{
+    background-color: blue;
+    color: white;
+  
+  } */
+
+  .topnav .div23,.topnav .div24
+  {display: none;}
+
+
+.topnav .div11 input{
+  width :250px
+}
+
+.div11.div22{
+  display: none;
+}
+
+
+
+
+@media screen and (max-width: 1065px) {
+  .topnav .div2{display: none;}
+  .topnav .div1,.topnav .div11{ float: none;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: left;
+  }
+  .topnav {
+   /* height: 20vh;*/
+  }
+
+  .themain{
+ position:fixed;
+ top: 20vh;
+ height:80vh;
+  }
+  .responsive {
+   /* height: 40vh; */
+  }
+  .responsive1{
+    
+ position:fixed;
+ top: 40vh;
+ height:60vh ;
+  }
+
+  
+  .topnav .icon  .FiMenu{
+    display: block;
+  height: 10vh;}
+
+
+  .topnav .div11 input{
+    width :40%;
+    
+  }
+  .topnav .icon div:hover{
+    color: white !important;
+  } 
+  .topnav .icon div ,.topnav .icon img ,.topnav .icon FiMenu{
+  margin:5px;
+  color:#007BFF;
+  }
+
+  .topnav .icon div:hover{
+    color: white !important;
+  } 
+/**/
+  .topnav .icon FiMenu:hover{
+  background-color: chartreuse;
+  color:white ;
+  }
+
+.topnav .icon .name:hover{
+  color:white ;
+  text-decoration: none;
+} 
+
+
+
+
+
+}
+
+@media screen and (max-width: 1065px) {
+  .topnav.responsive {position: fixed;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav .icon  .FiMenu:hover{
+  
+    background-color:#007BFF;
+    color:white ;
+     height:100%;}
+
+  .topnav.responsive .div1,.topnav.responsive .div2,.topnav.responsive .div11 {
+    float: none;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: left;
+  }
+  .topnav.disconnected{
+    top:0vh; 
+    height: 10vh;
+  }
+  .themain.disconnected{
+    top:10vh; 
+    height: 90vh;
+   }
+
+
+  .responsive.disconnected{
+    top:0vh; 
+    height: 40vh;
+  }
+
+
+
+  .responsive1.disconnected{
+    top:40vh; 
+    height: 60vh;
+  }
+
+  .topnav.conversation{
+   height: 10vh; 
+  }
+  
+  .themain.conversation{
+top:10vh;
+height: 90vh;
+}
+
+.topnav.conversation.responsive{
+  height: 30vh; 
+
+
+}
+.themain.conversation.responsive1{
+  top:30vh;
+  height: 70vh;
+  }
+
+
+  .topnav.responsive .div11.div22{
+    display: none;
+  }
+
+
+  .topnav.description{
+    height: 10vh; 
+   }
+   
+   .themain.description{
+ top:10vh;
+ height: 90vh;
+ }
+ 
+ .topnav.description.responsive{
+   height: 30vh; 
+ 
+ 
+ }
+ .themain.description.responsive1{
+   top:30vh;
+   height: 70vh;
+   }
+ 
+ 
+   .topnav.responsive .div11.div22{
+     display: none;
+   }
+
+   .topnav .icon .name:hover{
+     color: white !;
+     text-decoration: none !important;
+   }
+
+
+
+   .topnav .icon div:hover{
+    color: white !;
+    text-decoration: none !important;
+  }
+ 
+ }
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 400px) {
+  .topnav .div23
+  {display: block ;
+  float:left}  
+  .topnav .div24{
+    display:block;
+    height:10vh
+  }
+  .topnav.responsive  .div1
+  {display: none;}
+  .topnav .div1
+  {display: none;
+  background-color: darkgreen;}
+  .responsive1.disconnected{
+    top:20vh
+  }
+ .topnav.responsive .div11.div22{
+   display:block;
+ }
+
+  }
+  .disconnect:hover  {
+    background-color: #007BFF;
+    color:white !important
+
+  } 
+  .l:hover{
+   color: white !important;
+   background-color:  #007bff !important; ;
+ }
+
+
+ /* il herite de son parent
+ 
+ nested div in link
+ */
+ .topnav .icon .l:hover .name{
+  color: white !important;
+  background-color:  #007bff !important; ;
+}
+
+
+.l
+{display: flex;
+  height: 10vh;
+  width: 100%;
+  text-decoration: none !important;
+  align-items: center;
+
+}
+.ll
+{
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  text-decoration: none;
+  align-items: center;
+  
+  background-color:gray !important ;}
+
+
+
+.div11.div22{
+  display: none;
+}
+.topnav.connecting{
+  height: 10vh;
+  top :0vh;
+}
+.themain.connecting{
+ height:90vh;
+ top:10vh; 
+}
+.topnav.responsive.connecting{
+  height: 20vh;
+  top :0vh;
+}
+.themain.responsive1.connecting{
+ height:80vh;
+ top:20vh; 
+}
